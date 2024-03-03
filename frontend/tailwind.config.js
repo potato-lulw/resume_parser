@@ -14,6 +14,7 @@ module.exports = {
           // 550: '#ffffff', // text primary
           950: '#0B0C10', // primary bg
           850: '#1F2833', // secondary bg
+          825: '#2a3645', // tertiary bg
           750: '#45A29E', // border
           650: '#C5C6C7', // text secondary
           550: '#66FCF1', // text primary

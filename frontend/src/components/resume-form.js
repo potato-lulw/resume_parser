@@ -27,7 +27,7 @@ const ResumeForm = () => {
         e.preventDefault();
         const backendEndpoint = "http://localhost:4000/api/upload"
         const formData = new FormData();
-        formData.append("file", droppedFiles);
+        formData.append("file", droppedFiles[0]);
         setLoading(true);
         try {
             const response = await fetch(backendEndpoint, {
@@ -51,8 +51,8 @@ const ResumeForm = () => {
     };
 
     return (
-        <form className='flex flex-col w-[80%] justify-center' onSubmit={handleSubmit}>
-            <label htmlFor="drop-box">Drop your resume</label>
+        <form className='flex flex-col w-[80%] justify-center mt-10' onSubmit={handleSubmit}>
+            <label htmlFor="drop-box" className='text-5xl font-bold my-2'>Drop your resume!</label>
             <div {...getRootProps()} className={` h-[100px] bg-secondary rounded-lg text-secondary  flex justify-center items-center cursor-pointer border-dashed border-2 border-gray-500 {isDragActive ? 'active' : ''
                     } `}>
                 <input {...getInputProps()} id='drop-box'/>
@@ -75,7 +75,7 @@ const ResumeForm = () => {
                 loading ? (
                     <button
                         type="submit"
-                        className="mt-4 inline-block bg-primary border-2 border-dark hover:bg-secondary text-secondary transition font-bold py-2 px-4 rounded"
+                        className="mt-4 inline-block bg-primary border-2 border-dark hover:bg-secondary text-secondary transition font-bold py-2 px-4 rounded hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]"
                     >
                         Please wait...
                     </button>
@@ -83,7 +83,7 @@ const ResumeForm = () => {
                     (
                         <button
                             type="submit"
-                            className="mt-4 inline-block bg-primary border-2 border-dark hover:bg-secondary text-secondary transition font-bold py-2 px-4 rounded"
+                            className="mt-4 inline-block bg-primary border-2 border-dark hover:bg-secondary text-secondary transition font-bold py-2 px-4 rounded hover:shadow-[5px_5px_0px_0px_#66FCF1]"
                         >
                             Upload
                         </button>
