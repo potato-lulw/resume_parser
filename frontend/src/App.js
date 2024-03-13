@@ -3,6 +3,7 @@ import Home from "./pages/home";
 import Navbar from "./components/navbar";
 import Jobs from "./pages/jobs";
 import Login from "./pages/login";
+import AddJob from "./pages/add-job";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Jobs" element={<Jobs />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/add-job" element={<AddJob />} />
         </Routes>
       </BrowserRouter>
     </div>
