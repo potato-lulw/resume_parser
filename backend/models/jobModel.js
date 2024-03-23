@@ -10,7 +10,7 @@ const JobSchema = new mongoose.Schema({
         required: true,
     },
     requiredSkill: {
-        type: String,
+        type: [String],
         required: true,
     },
     yearsOfExperience: {
@@ -25,8 +25,18 @@ const JobSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-}, {
-    timestamps: true,
+    uploadedBy: {
+        type: String, 
+        required: true,
+    },
+    uploadDate: {
+        type: Date,
+        default: Date.now // Sets default value to current date/time
+    },
+    endDate: {
+        type: Date,
+        required: true // Change as per your requirement
+    }
 });
 
 module.exports = mongoose.model('Job', JobSchema);

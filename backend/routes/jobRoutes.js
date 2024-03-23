@@ -7,14 +7,29 @@ const connectDB = require('../config/db');
 router.get('/jobs', async (req, res) => {
     try {
         const db = await connectDB();
-        const jobs = await db.collection('jobs').find().toArray();
-      
+        let query = {};
+        if (req.query.skill) {
+            query.requiredSkill = { $regex: new RegExp(req.query.skill, 'i') };
+        }
+        const jobs = await db.collection('jobs').find(query).toArray();
         res.status(200).json(jobs);
     } catch (error) {
         console.error('Error fetching jobs:', error);
         res.status(500).json({ message: 'Error fetching jobs', error });
     }
 });
+
+router.get('/jobs/:uploadedBy', async (req, res) => {
+    try {
+        const db = await connectDB();
+        const jobs = await db.collection('jobs').find({ uploadedBy: req.params.uploadedBy }).toArray();
+        res.status(200).json(jobs);
+    } catch (error) {
+        console.error('Error fetching jobs:', error);
+        res.status(500).json({ message: 'Error fetching jobs', error });
+    }
+});
+
 
 router.post('/jobs', async (req, res) => {
     try {

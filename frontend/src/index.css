@@ -26,6 +26,9 @@ body {
   .text-secondary {
     @apply text-gray-650
   }
+  .text-tertiary{
+    @apply text-gray-450
+  }
   .border-dark {
     @apply  border-gray-750
   }

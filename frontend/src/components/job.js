@@ -15,9 +15,17 @@ const Job = ({ job }) => {
                     -
                     <p>Experience: <span className='font-bold'>{job.yearsOfExperience}</span> years</p>
                     -
-                    <p>Salary: <span className='font-bold'>5-7</span> lpa</p>
+                    <p>Salary: <span className='font-bold'>{job.salary}</span> lpa</p>
                 </div>
-                <div className='flex'>Required Skills: {job.requiredSkill}</div>
+                <div className='flex'>
+                    Required Skills:
+                    {job.requiredSkill.map((skill, index, array) => (
+                        <span key={index} className='font-bold'>
+                            {skill}{index < array.length - 1 ? ',' : '.'}&nbsp;
+                        </span>
+                    ))}
+                </div>
+
             </div>
             <div className='flex gap-2'>
                 <button className='group bg-primary flex gap-2 px-4 py-2 rounded-lg items-center justify-center text-secondary hover:text-primary transition'>
