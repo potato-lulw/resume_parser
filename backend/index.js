@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const fileRoutes = require('./routes/fileRoutes');
 const jobRoutes = require('./routes/jobRoutes');
+const applicantRoutes = require('./routes/applicantRoutes')
 const connectDB = require('./config/db');
 
 const app = express();
@@ -11,6 +12,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', fileRoutes); 
 app.use('/api', jobRoutes);
+app.use('/api', applicantRoutes)
 
 app.get('/', (req, res) => {
   res.send('Hello World!');

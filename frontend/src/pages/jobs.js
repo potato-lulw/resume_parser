@@ -23,7 +23,7 @@ const Jobs = () => {
     }, [searchInput]);
 
     return (
-        <div className='flex justify-center mt-5 flex-col w-[80vw] self-center'>
+        <div className='flex justify-center mt-5 flex-col w-[80vw] self-center '>
             <h1 className='text-3xl font-bold text-left'>Currently available jobs</h1>
             {jobs.map((job, index) => (
                 <Job key={index} job={job} />

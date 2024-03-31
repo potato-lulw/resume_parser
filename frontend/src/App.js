@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Jobs from "./pages/jobs";
 import Login from "./pages/login";
 import AddJob from "./pages/add-job";
+import ResumeForm from "./components/resume-form";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/Jobs" element={<Jobs />} />
           <Route path="/login" element={<Login />} />
           <Route path="/add-job" element={<AddJob />} />
+          <Route path="/resume-form" element={<ResumeForm/>} />
         </Routes>
       </BrowserRouter>
     </div>

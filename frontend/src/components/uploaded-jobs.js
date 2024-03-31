@@ -8,7 +8,7 @@ const UploadedJobs = () => {
     useEffect(() => {
         const fetchUploadedJobs = async () => {
             try {
-                const response = await fetch(`http://localhost:4000/api/jobs/${name}`);
+                const response = await fetch(`http://localhost:4000/api/jobs?uploadedBy=${name}`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

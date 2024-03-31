@@ -2,6 +2,9 @@ const express = require('express');
 const router = express.Router();
 const Job = require('../models/jobModel'); 
 const connectDB = require('../config/db');
+const { ObjectId } = require('mongodb');
+
+
 
 
 router.get('/jobs', async (req, res) => {
@@ -10,7 +13,12 @@ router.get('/jobs', async (req, res) => {
         let query = {};
         if (req.query.skill) {
             query.requiredSkill = { $regex: new RegExp(req.query.skill, 'i') };
+        } else if (req.query.uploadedBy) {
+            query.uploadedBy = req.query.uploadedBy;
+        } else if (req.query.id) {
+            query._id = new ObjectId(req.query.id);
         }
+        
         const jobs = await db.collection('jobs').find(query).toArray();
         res.status(200).json(jobs);
     } catch (error) {
@@ -19,16 +27,8 @@ router.get('/jobs', async (req, res) => {
     }
 });
 
-router.get('/jobs/:uploadedBy', async (req, res) => {
-    try {
-        const db = await connectDB();
-        const jobs = await db.collection('jobs').find({ uploadedBy: req.params.uploadedBy }).toArray();
-        res.status(200).json(jobs);
-    } catch (error) {
-        console.error('Error fetching jobs:', error);
-        res.status(500).json({ message: 'Error fetching jobs', error });
-    }
-});
+
+
 
 
 router.post('/jobs', async (req, res) => {

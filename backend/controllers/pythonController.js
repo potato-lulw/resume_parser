@@ -6,8 +6,9 @@ const callPythonScript = (filePath) => {
         const pythonScriptPath = path.join(__dirname, '..', 'scripts', 'test.py');
         const pythonProcess = spawn('python', [pythonScriptPath, filePath]);
 
-        pythonProcess.stdout.on('data', (data) => {
-            console.log(`Python script output: ${data.toString()}`);
+        let data = '';
+        pythonProcess.stdout.on('data', (chunk) => {
+            data += chunk.toString();
         });
 
         pythonProcess.stderr.on('data', (data) => {
@@ -19,7 +20,12 @@ const callPythonScript = (filePath) => {
             if (code !== 0) {
                 reject(new Error(`Python script exited with code ${code}`));
             } else {
-                resolve(`Python script exited with code ${code}`);
+                try {
+                    const parsedData = JSON.parse(data);
+                    resolve(parsedData);
+                } catch (error) {
+                    reject(new Error('Error parsing JSON response from Python script'));
+                }
             }
         });
     });
