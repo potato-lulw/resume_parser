@@ -5,6 +5,7 @@ import Jobs from "./pages/jobs";
 import Login from "./pages/login";
 import AddJob from "./pages/add-job";
 import ResumeForm from "./components/resume-form";
+import Analyze from "./pages/analyse";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/add-job" element={<AddJob />} />
           <Route path="/resume-form" element={<ResumeForm/>} />
+          <Route path="/analyze" element={<Analyze/>} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,739 @@
+Category,Word,Frequency
+Data Science,data,392
+Data Science,exprience,248
+Data Science,months,240
+Data Science,learning,168
+Data Science,science,160
+Data Science,machine,156
+Data Science,less,156
+Data Science,python,136
+Data Science,details,120
+Data Science,analytics,120
+Data Science,using,96
+Data Science,like,88
+Data Science,company,76
+Data Science,analysis,72
+Data Science,deep,72
+Data Science,description,72
+Data Science,business,72
+Data Science,project,72
+Data Science,sap,68
+Data Science,knowledge,64
+Data Science,skills,56
+Data Science,platform,56
+Data Science,text,56
+Data Science,sql,52
+Data Science,development,52
+Data Science,information,52
+Data Science,technical,52
+Data Science,nlp,52
+HR,details,132
+HR,hr,84
+HR,exprience,72
+HR,company,68
+HR,6,60
+HR,management,56
+HR,description,52
+HR,skill,44
+HR,months,44
+HR,education,40
+HR,skills,28
+HR,monthscompany,28
+HR,payroll,28
+HR,june,28
+HR,january,24
+HR,engineering,24
+HR,university,24
+HR,computer,24
+HR,mba,20
+HR,college,20
+HR,software,20
+HR,statutory,20
+HR,compliance,20
+HR,employee,20
+HR,salary,20
+HR,employees,20
+HR,school,16
+HR,payment,16
+Advocate,details,60
+Advocate,legal,48
+Advocate,law,46
+Advocate,university,38
+Advocate,advocate,34
+Advocate,exprience,32
+Advocate,january,32
+Advocate,company,30
+Advocate,court,28
+Advocate,maharashtra,24
+Advocate,description,22
+Advocate,skill,20
+Advocate,less,20
+Advocate,year,20
+Advocate,months,20
+Advocate,district,16
+Advocate,mumbai,16
+Advocate,pune,16
+Advocate,college,14
+Advocate,courts,14
+Advocate,cases,14
+Advocate,chennai,14
+Advocate,high,12
+Advocate,criminal,12
+Advocate,matters,12
+Advocate,paper,12
+Advocate,education,12
+Advocate,monthscompany,12
+Arts,company,156
+Arts,arts,144
+Arts,details,108
+Arts,description,108
+Arts,january,96
+Arts,maharashtra,90
+Arts,college,72
+Arts,council,66
+Arts,skill,60
+Arts,british,60
+Arts,music,60
+Arts,days,54
+Arts,events,54
+Arts,responsibilities,54
+Arts,india,54
+Arts,projects,54
+Arts,development,48
+Arts,mumbai,48
+Arts,pune,42
+Arts,university,42
+Arts,experience,42
+Arts,state,42
+Arts,managing,42
+Arts,new,42
+Arts,marketing,36
+Arts,management,36
+Arts,nagpur,36
+Arts,workshop,36
+Arts,team,36
+Arts,board,36
+Web Designing,project,288
+Web Designing,application,252
+Web Designing,description,234
+Web Designing,web,207
+Web Designing,exprience,198
+Web Designing,used,171
+Web Designing,months,162
+Web Designing,details,153
+Web Designing,software,144
+Web Designing,company,144
+Web Designing,bootstrap,135
+Web Designing,developed,135
+Web Designing,technologies,126
+Web Designing,jquery,126
+Web Designing,roles,126
+Web Designing,responsibility,126
+Web Designing,website,126
+Web Designing,ui,117
+Web Designing,designed,117
+Web Designing,maharashtra,108
+Web Designing,developer,108
+Web Designing,team,99
+Web Designing,nagpur,90
+Web Designing,trust,90
+Web Designing,time,90
+Web Designing,made,90
+Web Designing,loan,90
+Web Designing,php,90
+Mechanical Engineer,engineering,208
+Mechanical Engineer,mechanical,192
+Mechanical Engineer,company,160
+Mechanical Engineer,design,152
+Mechanical Engineer,details,120
+Mechanical Engineer,description,112
+Mechanical Engineer,technical,104
+Mechanical Engineer,project,104
+Mechanical Engineer,customer,104
+Mechanical Engineer,products,96
+Mechanical Engineer,vendor,96
+Mechanical Engineer,cost,80
+Mechanical Engineer,work,80
+Mechanical Engineer,training,72
+Mechanical Engineer,projects,72
+Mechanical Engineer,role,72
+Mechanical Engineer,sales,72
+Mechanical Engineer,vendors,72
+Mechanical Engineer,development,72
+Mechanical Engineer,ltd,72
+Mechanical Engineer,machine,72
+Mechanical Engineer,exprience,64
+Mechanical Engineer,responsibilities,64
+Mechanical Engineer,process,64
+Mechanical Engineer,time,64
+Mechanical Engineer,pune,64
+Mechanical Engineer,manufacturing,64
+Mechanical Engineer,pvt,64
+Mechanical Engineer,order,56
+Mechanical Engineer,proposal,56
+Sales,sales,352
+Sales,exprience,168
+Sales,months,128
+Sales,details,120
+Sales,manager,120
+Sales,company,120
+Sales,team,120
+Sales,description,96
+Sales,ms,72
+Sales,marketing,72
+Sales,year,64
+Sales,college,64
+Sales,targets,64
+Sales,skill,56
+Sales,cricket,56
+Sales,work,56
+Sales,staff,56
+Sales,ltd,48
+Sales,worked,48
+Sales,skills,48
+Sales,managing,48
+Sales,clients,48
+Sales,leads,48
+Sales,less,40
+Sales,monthscompany,40
+Sales,working,40
+Sales,management,40
+Sales,office,40
+Health and fitness,fitness,180
+Health and fitness,company,140
+Health and fitness,description,115
+Health and fitness,details,90
+Health and fitness,health,80
+Health and fitness,gym,70
+Health and fitness,skills,60
+Health and fitness,nutrition,60
+Health and fitness,management,55
+Health and fitness,sales,55
+Health and fitness,january,50
+Health and fitness,responsibilities,50
+Health and fitness,science,45
+Health and fitness,related,45
+Health and fitness,college,40
+Health and fitness,training,40
+Health and fitness,team,40
+Health and fitness,education,35
+Health and fitness,months,35
+Health and fitness,handling,35
+Health and fitness,queries,35
+Health and fitness,customers,35
+Health and fitness,skill,30
+Health and fitness,hotel,30
+Health and fitness,university,30
+Health and fitness,work,30
+Health and fitness,customer,30
+Health and fitness,centre,30
+Health and fitness,high,25
+Health and fitness,good,25
+Civil Engineer,project,224
+Civil Engineer,civil,160
+Civil Engineer,company,132
+Civil Engineer,site,132
+Civil Engineer,engineer,128
+Civil Engineer,description,116
+Civil Engineer,construction,76
+Civil Engineer,details,72
+Civil Engineer,india,64
+Civil Engineer,inspection,56
+Civil Engineer,work,56
+Civil Engineer,client,48
+Civil Engineer,exprience,48
+Civil Engineer,engineering,44
+Civil Engineer,mumbai,44
+Civil Engineer,drawings,40
+Civil Engineer,maharashtra,40
+Civil Engineer,quality,36
+Civil Engineer,months,36
+Civil Engineer,material,36
+Civil Engineer,building,32
+Civil Engineer,name,32
+Civil Engineer,al,32
+Civil Engineer,etc,32
+Civil Engineer,skill,28
+Civil Engineer,position,28
+Civil Engineer,responsibilities,28
+Civil Engineer,including,28
+Civil Engineer,job,28
+Java Developer,java,552
+Java Developer,exprience,408
+Java Developer,months,372
+Java Developer,developer,288
+Java Developer,details,276
+Java Developer,description,198
+Java Developer,company,192
+Java Developer,less,186
+Java Developer,year,186
+Java Developer,maharashtra,168
+Java Developer,technologies,132
+Java Developer,jsp,120
+Java Developer,6,114
+Java Developer,ajax,114
+Java Developer,spring,108
+Java Developer,january,108
+Java Developer,mysql,108
+Java Developer,project,102
+Java Developer,technology,96
+Java Developer,hibernate,96
+Java Developer,development,96
+Java Developer,skill,90
+Java Developer,pvt,90
+Java Developer,system,90
+Java Developer,javascript,84
+Java Developer,servlet,84
+Java Developer,web,78
+Java Developer,ltd,78
+Java Developer,jquery,72
+Business Analyst,business,252
+Business Analyst,test,208
+Business Analyst,company,168
+Business Analyst,description,168
+Business Analyst,management,128
+Business Analyst,project,124
+Business Analyst,details,122
+Business Analyst,requirement,116
+Business Analyst,requirements,116
+Business Analyst,testing,116
+Business Analyst,team,114
+Business Analyst,exprience,112
+Business Analyst,process,102
+Business Analyst,functional,94
+Business Analyst,months,92
+Business Analyst,system,90
+Business Analyst,responsibilities,84
+Business Analyst,analysis,84
+Business Analyst,analyst,82
+Business Analyst,user,82
+Business Analyst,various,72
+Business Analyst,january,72
+Business Analyst,maharashtra,70
+Business Analyst,report,68
+Business Analyst,client,68
+Business Analyst,work,64
+Business Analyst,mumbai,60
+Business Analyst,cases,60
+Business Analyst,processes,60
+Business Analyst,ltd,60
+SAP Developer,sap,292
+SAP Developer,project,132
+SAP Developer,bo,128
+SAP Developer,hana,116
+SAP Developer,reports,112
+SAP Developer,data,108
+SAP Developer,exprience,100
+SAP Developer,business,96
+SAP Developer,company,88
+SAP Developer,months,84
+SAP Developer,using,80
+SAP Developer,developer,80
+SAP Developer,users,76
+SAP Developer,details,72
+SAP Developer,description,72
+SAP Developer,team,68
+SAP Developer,application,68
+SAP Developer,issues,64
+SAP Developer,webi,64
+SAP Developer,universe,60
+SAP Developer,requirements,60
+SAP Developer,worked,60
+SAP Developer,bods,52
+SAP Developer,client,52
+SAP Developer,various,52
+SAP Developer,environment,48
+SAP Developer,order,48
+SAP Developer,working,48
+SAP Developer,experience,48
+SAP Developer,performance,44
+Automation Testing,test,392
+Automation Testing,testing,326
+Automation Testing,automation,272
+Automation Testing,company,116
+Automation Testing,description,108
+Automation Testing,qtp,104
+Automation Testing,project,100
+Automation Testing,exprience,100
+Automation Testing,months,94
+Automation Testing,using,86
+Automation Testing,details,84
+Automation Testing,good,84
+Automation Testing,system,82
+Automation Testing,team,80
+Automation Testing,involved,78
+Automation Testing,software,76
+Automation Testing,cases,76
+Automation Testing,integration,72
+Automation Testing,environment,72
+Automation Testing,development,72
+Automation Testing,6,70
+Automation Testing,manual,68
+Automation Testing,regression,66
+Automation Testing,selenium,64
+Automation Testing,knowledge,64
+Automation Testing,creation,64
+Automation Testing,sql,62
+Automation Testing,responsibilities,60
+Automation Testing,design,60
+Automation Testing,qa,58
+Electrical Engineering,electrical,300
+Electrical Engineering,maintenance,144
+Electrical Engineering,engineering,114
+Electrical Engineering,power,108
+Electrical Engineering,project,102
+Electrical Engineering,details,90
+Electrical Engineering,1,78
+Electrical Engineering,company,66
+Electrical Engineering,maharashtra,60
+Electrical Engineering,description,60
+Electrical Engineering,operation,60
+Electrical Engineering,2,54
+Electrical Engineering,control,54
+Electrical Engineering,plant,54
+Electrical Engineering,pvt,54
+Electrical Engineering,technical,54
+Electrical Engineering,layout,54
+Electrical Engineering,3,48
+Electrical Engineering,design,48
+Electrical Engineering,equipment,48
+Electrical Engineering,cable,48
+Electrical Engineering,ltd,48
+Electrical Engineering,pune,48
+Electrical Engineering,panels,48
+Electrical Engineering,panel,48
+Electrical Engineering,completed,48
+Electrical Engineering,work,42
+Electrical Engineering,management,42
+Electrical Engineering,per,42
+Electrical Engineering,drawing,42
+Operations Manager,team,650
+Operations Manager,company,600
+Operations Manager,operations,530
+Operations Manager,project,460
+Operations Manager,client,410
+Operations Manager,services,390
+Operations Manager,management,350
+Operations Manager,ensuring,320
+Operations Manager,description,290
+Operations Manager,system,280
+Operations Manager,customer,260
+Operations Manager,manager,240
+Operations Manager,quality,240
+Operations Manager,development,240
+Operations Manager,work,230
+Operations Manager,business,200
+Operations Manager,india,190
+Operations Manager,ltd,190
+Operations Manager,job,190
+Operations Manager,timely,190
+Operations Manager,process,190
+Operations Manager,ensure,180
+Operations Manager,meetings,180
+Operations Manager,control,170
+Operations Manager,monitored,170
+Operations Manager,honeywell,170
+Operations Manager,ges,170
+Operations Manager,managing,160
+Operations Manager,activity,160
+Operations Manager,international,150
+Python Developer,python,304
+Python Developer,exprience,264
+Python Developer,months,224
+Python Developer,pune,216
+Python Developer,completed,160
+Python Developer,1,160
+Python Developer,details,144
+Python Developer,developer,144
+Python Developer,training,128
+Python Developer,year,112
+Python Developer,internal,104
+Python Developer,maharashtra,104
+Python Developer,less,104
+Python Developer,web,88
+Python Developer,project,88
+Python Developer,development,80
+Python Developer,computer,80
+Python Developer,company,72
+Python Developer,technical,64
+Python Developer,6,64
+Python Developer,erp,64
+Python Developer,university,64
+Python Developer,description,64
+Python Developer,mysql,56
+Python Developer,django,56
+Python Developer,skill,56
+Python Developer,2017,56
+Python Developer,agile,48
+Python Developer,worked,48
+Python Developer,science,48
+DevOps Engineer,exprience,424
+DevOps Engineer,project,419
+DevOps Engineer,months,386
+DevOps Engineer,shell,255
+DevOps Engineer,1,223
+DevOps Engineer,team,215
+DevOps Engineer,company,213
+DevOps Engineer,description,210
+DevOps Engineer,devops,209
+DevOps Engineer,servers,205
+DevOps Engineer,build,204
+DevOps Engineer,mysql,174
+DevOps Engineer,applications,173
+DevOps Engineer,scripts,171
+DevOps Engineer,details,165
+DevOps Engineer,automation,163
+DevOps Engineer,less,153
+DevOps Engineer,year,153
+DevOps Engineer,users,153
+DevOps Engineer,software,149
+DevOps Engineer,cloud,142
+DevOps Engineer,support,138
+DevOps Engineer,development,129
+DevOps Engineer,6,127
+DevOps Engineer,different,124
+DevOps Engineer,technologies,123
+DevOps Engineer,engineer,119
+DevOps Engineer,deployment,119
+DevOps Engineer,scripting,119
+DevOps Engineer,creating,119
+Network Security Engineer,network,285
+Network Security Engineer,exprience,245
+Network Security Engineer,months,220
+Network Security Engineer,security,200
+Network Security Engineer,cisco,185
+Network Security Engineer,configuration,165
+Network Security Engineer,year,160
+Network Security Engineer,less,150
+Network Security Engineer,1,150
+Network Security Engineer,management,125
+Network Security Engineer,etc,95
+Network Security Engineer,description,90
+Network Security Engineer,firewall,85
+Network Security Engineer,server,85
+Network Security Engineer,company,80
+Network Security Engineer,switches,75
+Network Security Engineer,details,75
+Network Security Engineer,project,75
+Network Security Engineer,servers,75
+Network Security Engineer,devices,70
+Network Security Engineer,troubleshooting,65
+Network Security Engineer,firewalls,65
+Network Security Engineer,client,65
+Network Security Engineer,technologies,60
+Network Security Engineer,engineer,60
+Network Security Engineer,troubleshoot,60
+Network Security Engineer,asa,55
+Network Security Engineer,maintaining,55
+Network Security Engineer,maharashtra,50
+Network Security Engineer,router,50
+PMO,management,430
+PMO,project,350
+PMO,report,210
+PMO,responsible,160
+PMO,business,150
+PMO,reports,140
+PMO,exprience,140
+PMO,sla,140
+PMO,team,130
+PMO,data,120
+PMO,skills,110
+PMO,months,110
+PMO,company,110
+PMO,description,100
+PMO,process,100
+PMO,resource,100
+PMO,monitor,100
+PMO,senior,100
+PMO,maintain,90
+PMO,ensure,90
+PMO,risk,90
+PMO,reporting,90
+PMO,details,90
+PMO,billing,90
+PMO,training,90
+PMO,requirements,90
+PMO,documentation,80
+PMO,delivery,80
+PMO,ability,80
+PMO,work,80
+Database,â,540
+Database,database,459
+Database,sql,210
+Database,server,201
+Database,oracle,183
+Database,exprience,138
+Database,description,117
+Database,using,114
+Database,databases,114
+Database,company,111
+Database,details,105
+Database,months,105
+Database,installation,102
+Database,backup,99
+Database,servers,99
+Database,issues,96
+Database,data,90
+Database,management,87
+Database,support,75
+Database,windows,72
+Database,monitoring,72
+Database,ltd,69
+Database,administrator,66
+Database,log,66
+Database,creating,63
+Database,mysql,57
+Database,user,54
+Database,backups,54
+Database,worked,54
+Database,working,54
+Hadoop,data,618
+Hadoop,hadoop,390
+Hadoop,hive,330
+Hadoop,using,174
+Hadoop,description,168
+Hadoop,sqoop,156
+Hadoop,project,144
+Hadoop,exprience,144
+Hadoop,hdfs,138
+Hadoop,details,126
+Hadoop,company,126
+Hadoop,months,120
+Hadoop,cluster,114
+Hadoop,spark,108
+Hadoop,developer,96
+Hadoop,involved,90
+Hadoop,pig,84
+Hadoop,queries,84
+Hadoop,1,78
+Hadoop,like,72
+Hadoop,tables,72
+Hadoop,used,72
+Hadoop,scala,66
+Hadoop,hbase,66
+Hadoop,system,66
+Hadoop,database,66
+Hadoop,various,66
+Hadoop,skill,60
+Hadoop,different,60
+Hadoop,sql,60
+ETL Developer,data,368
+ETL Developer,etl,312
+ETL Developer,informatica,208
+ETL Developer,sql,168
+ETL Developer,exprience,160
+ETL Developer,project,160
+ETL Developer,details,152
+ETL Developer,using,144
+ETL Developer,talend,128
+ETL Developer,developer,120
+ETL Developer,months,120
+ETL Developer,company,120
+ETL Developer,testing,120
+ETL Developer,description,112
+ETL Developer,services,96
+ETL Developer,mappings,96
+ETL Developer,unix,88
+ETL Developer,environment,88
+ETL Developer,business,88
+ETL Developer,january,80
+ETL Developer,unit,80
+ETL Developer,jobs,80
+ETL Developer,center,72
+ETL Developer,source,72
+ETL Developer,server,72
+ETL Developer,job,72
+ETL Developer,maharashtra,72
+ETL Developer,development,72
+ETL Developer,power,64
+ETL Developer,system,64
+DotNet Developer,exprience,176
+DotNet Developer,months,152
+DotNet Developer,project,140
+DotNet Developer,database,116
+DotNet Developer,sql,104
+DotNet Developer,server,100
+DotNet Developer,details,100
+DotNet Developer,developer,100
+DotNet Developer,description,100
+DotNet Developer,application,100
+DotNet Developer,management,96
+DotNet Developer,c,92
+DotNet Developer,1,92
+DotNet Developer,system,88
+DotNet Developer,less,84
+DotNet Developer,year,84
+DotNet Developer,jquery,76
+DotNet Developer,dot,76
+DotNet Developer,net,76
+DotNet Developer,role,72
+DotNet Developer,company,68
+DotNet Developer,pune,64
+DotNet Developer,layer,64
+DotNet Developer,development,64
+DotNet Developer,environment,64
+DotNet Developer,web,60
+DotNet Developer,worked,60
+DotNet Developer,mvc,56
+DotNet Developer,visual,56
+DotNet Developer,javascript,56
+Blockchain,company,256
+Blockchain,blockchain,208
+Blockchain,description,208
+Blockchain,exprience,192
+Blockchain,months,160
+Blockchain,details,120
+Blockchain,system,120
+Blockchain,ethereum,120
+Blockchain,january,112
+Blockchain,technology,112
+Blockchain,6,112
+Blockchain,smart,80
+Blockchain,computer,80
+Blockchain,maharashtra,72
+Blockchain,2014,56
+Blockchain,2017,56
+Blockchain,engineering,56
+Blockchain,developer,56
+Blockchain,worked,56
+Blockchain,mysql,56
+Blockchain,build,56
+Blockchain,web,56
+Blockchain,project,56
+Blockchain,skill,48
+Blockchain,management,48
+Blockchain,java,48
+Blockchain,global,40
+Blockchain,services,40
+Blockchain,12,40
+Blockchain,monthscompany,40
+Testing,testing,320
+Testing,test,320
+Testing,details,260
+Testing,exprience,230
+Testing,months,220
+Testing,6,210
+Testing,maharashtra,170
+Testing,company,140
+Testing,check,140
+Testing,transformer,140
+Testing,january,130
+Testing,engineer,130
+Testing,description,130
+Testing,system,130
+Testing,project,130
+Testing,windows,130
+Testing,quality,120
+Testing,skill,90
+Testing,ltd,90
+Testing,engineering,90
+Testing,per,90
+Testing,1,80
+Testing,android,80
+Testing,assembly,80
+Testing,electronics,70
+Testing,pvt,70
+Testing,application,70
+Testing,college,70
+Testing,resistance,70
+Testing,core,70

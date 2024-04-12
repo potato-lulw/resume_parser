@@ -4,6 +4,7 @@ const cors = require('cors');
 const fileRoutes = require('./routes/fileRoutes');
 const jobRoutes = require('./routes/jobRoutes');
 const applicantRoutes = require('./routes/applicantRoutes')
+const analyseRoutes = require('./routes/analyseRoutes');
 const connectDB = require('./config/db');
 
 const app = express();
@@ -13,6 +14,7 @@ app.use(express.json());
 app.use('/api', fileRoutes); 
 app.use('/api', jobRoutes);
 app.use('/api', applicantRoutes)
+app.use('/api', analyseRoutes)
 
 app.get('/', (req, res) => {
   res.send('Hello World!');

@@ -40,6 +40,7 @@ build/Release
 
 # Dependency directories
 uploads/
+analyse/
 node_modules/
 jspm_packages/
 

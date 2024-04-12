@@ -21,12 +21,10 @@ function PdfViewer({ pdfFile }) {
 
             <h1 className='text-lg mb-2' >Preview</h1>
             <div className='flex gap-2 text-lg hover:cursor-pointer'>
-
-            <button onClick={() => {setHeight(height-50)}}>-</button>
-            <button onClick={() => {setHeight(height+50)}}>+</button>
-            <button onClick={() => {setHeight(500)}}>Reset</button>
-
-            </div>
+                    <button onClick={(e) => { e.preventDefault(); setHeight(height - 50) }}>-</button>
+                    <button onClick={(e) => { e.preventDefault(); setHeight(height + 50) }}>+</button>
+                    <button onClick={(e) => { e.preventDefault(); setHeight(500) }}>Reset</button>
+                </div>
             </div>
             <Document file={pdfFile} onLoadSuccess={onDocumentLoadSuccess} >
                 {Array.apply(null, Array(numPages))
